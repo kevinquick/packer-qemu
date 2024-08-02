@@ -4,8 +4,8 @@ This project can build a QEMU image for Red Hat, this includes the latest update
 It will generate a 50GB raw disk with a CIS compliant filesystem setup. It uses virtio (/dev/vda) to prepare the image.
 
 ## Requirements
-Packer in your environment. [Install Packer](https://developer.hashicorp.com/packer/tutorials/docker-get-started/get-started-install-cli)
-
+- Packer in your environment. [Install Packer](https://developer.hashicorp.com/packer/tutorials/docker-get-started/get-started-install-cli)
+- QEMU
 
 ## Building the image
 ### Configuration
